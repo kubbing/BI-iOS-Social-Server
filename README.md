@@ -1,5 +1,7 @@
 # BI-iOS-Social-Server
 
+`http://illy.kubbing.com:3000/friends`
+
 Backend for the third homework.
 Note: there are no access rights implemented, please update you data only :)
 
