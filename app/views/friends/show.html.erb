@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @friend.name %>
+</p>
+
+<p>
+  <b>Gender:</b>
+  <%= @friend.gender %>
+</p>
+
+<p>
+  <b>Status:</b>
+  <%= @friend.status %>
+</p>
+
+<p>
+  <b>Latitude:</b>
+  <%= @friend.latitude %>
+</p>
+
+<p>
+  <b>Longitude:</b>
+  <%= @friend.longitude %>
+</p>
+
+<p>
+  <b>Thumbnail:</b>
+  <%= image_tag @friend.image_url(:thumbnail).to_s %>
+</p>
+
+<p>
+  <b>Image:</b>
+  <%= image_tag @friend.image_url.to_s %>
+</p>
+
+<%= link_to 'Edit', edit_friend_path(@friend) %> |
+<%= link_to 'Back', friends_path %>
